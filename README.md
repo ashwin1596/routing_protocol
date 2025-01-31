@@ -1,18 +1,10 @@
-# Distance Vector Routing Protocol (RIP) Implementation
+# RIP Routing: Intelligent Network Pathfinding
 
-A Python implementation of the Routing Information Protocol (RIP), featuring CIDR support and split-horizon with poisoned reverse. Developed at Rochester Institute of Technology.
+A dynamic network routing protocol that optimizes path selection and prevents routing inefficiencies in complex network environments.
 
-## 📁 Project Structure
+## Problem Solved
 
-```
-.
-├── router.py           # Core router implementation
-├── routinginfo.py     # Routing table and route information
-├── topology.py        # Network topology management
-├── udpclientthread.py # UDP client for sending updates
-├── udpserverthread.py # UDP server for receiving updates
-└── virtualrouter.py   # Virtual router simulation
-```
+Traditional routing mechanisms struggle with adapting to network changes, creating inefficient and potentially unstable communication paths.
 
 ## 🔄 Core Features
 
@@ -170,3 +162,15 @@ The implementation has been tested for:
 - UDP Implementation
 - Object-Oriented Design
 - Network Protocol Implementation
+
+## 📁 Project Structure
+
+```
+.
+├── router.py           # Core router implementation
+├── routinginfo.py     # Routing table and route information
+├── topology.py        # Network topology management
+├── udpclientthread.py # UDP client for sending updates
+├── udpserverthread.py # UDP server for receiving updates
+└── virtualrouter.py   # Virtual router simulation
+```
