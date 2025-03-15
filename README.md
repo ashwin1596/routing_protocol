@@ -6,6 +6,12 @@ A dynamic network routing protocol that optimizes path selection and prevents ro
 
 Traditional routing mechanisms struggle with adapting to network changes, creating inefficient and potentially unstable communication paths.
 
+## Implementation Highlights
+- Implemented the RIP distance-vector routing protocol to enable dynamic routing and shortest path computation using Python 
+and UDP. 
+- Developed periodic route updates, CIDR support, and dynamic routing table adjustments for efficient network routing. 
+- Applied 'split-horizon' with poisoned reverse to prevent routing loops and the count-to-infinity problem. 
+
 ## 🔄 Core Features
 
 ### 1. Periodic Route Updates
