@@ -1,4 +1,4 @@
-# RIP Routing: Intelligent Network Pathfinding
+# RIP Routing: Intelligent Network Pathfinding (https://youtu.be/ftX1EpgKN1s)
 
 A dynamic network routing protocol that optimizes path selection and prevents routing inefficiencies in complex network environments.
 
